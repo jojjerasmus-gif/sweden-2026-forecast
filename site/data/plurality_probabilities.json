@@ -1,0 +1,66 @@
+[
+  {
+    "party": "s",
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "probability": 97.4,
+    "color": "#e11931",
+    "bloc": "opposition"
+  },
+  {
+    "party": "sd",
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "probability": 1.5,
+    "color": "#ffd500",
+    "bloc": "tido"
+  },
+  {
+    "party": "m",
+    "short_label": "M",
+    "display_name": "Moderates",
+    "probability": 1,
+    "color": "#1b49a0",
+    "bloc": "tido"
+  },
+  {
+    "party": "c",
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "probability": 0,
+    "color": "#009933",
+    "bloc": "opposition"
+  },
+  {
+    "party": "l",
+    "short_label": "L",
+    "display_name": "Liberals",
+    "probability": 0,
+    "color": "#006ab3",
+    "bloc": "tido"
+  },
+  {
+    "party": "kd",
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "probability": 0,
+    "color": "#005baa",
+    "bloc": "tido"
+  },
+  {
+    "party": "v",
+    "short_label": "V",
+    "display_name": "Left Party",
+    "probability": 0,
+    "color": "#da291c",
+    "bloc": "opposition"
+  },
+  {
+    "party": "mp",
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "probability": 0,
+    "color": "#83cf39",
+    "bloc": "opposition"
+  }
+]

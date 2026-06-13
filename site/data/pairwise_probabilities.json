@@ -1,0 +1,506 @@
+[
+  {
+    "party": "m",
+    "opponent": "l",
+    "probability": 100,
+    "short_label": "M",
+    "display_name": "Moderates",
+    "opponent_label": "L",
+    "opponent_name": "Liberals"
+  },
+  {
+    "party": "m",
+    "opponent": "c",
+    "probability": 99.9,
+    "short_label": "M",
+    "display_name": "Moderates",
+    "opponent_label": "C",
+    "opponent_name": "Centre Party"
+  },
+  {
+    "party": "m",
+    "opponent": "kd",
+    "probability": 99.9,
+    "short_label": "M",
+    "display_name": "Moderates",
+    "opponent_label": "KD",
+    "opponent_name": "Christian Democrats"
+  },
+  {
+    "party": "m",
+    "opponent": "s",
+    "probability": 1.3,
+    "short_label": "M",
+    "display_name": "Moderates",
+    "opponent_label": "S",
+    "opponent_name": "Social Democrats"
+  },
+  {
+    "party": "m",
+    "opponent": "v",
+    "probability": 99.2,
+    "short_label": "M",
+    "display_name": "Moderates",
+    "opponent_label": "V",
+    "opponent_name": "Left Party"
+  },
+  {
+    "party": "m",
+    "opponent": "mp",
+    "probability": 99.7,
+    "short_label": "M",
+    "display_name": "Moderates",
+    "opponent_label": "MP",
+    "opponent_name": "Green Party"
+  },
+  {
+    "party": "m",
+    "opponent": "sd",
+    "probability": 40.4,
+    "short_label": "M",
+    "display_name": "Moderates",
+    "opponent_label": "SD",
+    "opponent_name": "Sweden Democrats"
+  },
+  {
+    "party": "l",
+    "opponent": "m",
+    "probability": 0,
+    "short_label": "L",
+    "display_name": "Liberals",
+    "opponent_label": "M",
+    "opponent_name": "Moderates"
+  },
+  {
+    "party": "l",
+    "opponent": "c",
+    "probability": 3.9,
+    "short_label": "L",
+    "display_name": "Liberals",
+    "opponent_label": "C",
+    "opponent_name": "Centre Party"
+  },
+  {
+    "party": "l",
+    "opponent": "kd",
+    "probability": 7.5,
+    "short_label": "L",
+    "display_name": "Liberals",
+    "opponent_label": "KD",
+    "opponent_name": "Christian Democrats"
+  },
+  {
+    "party": "l",
+    "opponent": "s",
+    "probability": 0,
+    "short_label": "L",
+    "display_name": "Liberals",
+    "opponent_label": "S",
+    "opponent_name": "Social Democrats"
+  },
+  {
+    "party": "l",
+    "opponent": "v",
+    "probability": 0.4,
+    "short_label": "L",
+    "display_name": "Liberals",
+    "opponent_label": "V",
+    "opponent_name": "Left Party"
+  },
+  {
+    "party": "l",
+    "opponent": "mp",
+    "probability": 2,
+    "short_label": "L",
+    "display_name": "Liberals",
+    "opponent_label": "MP",
+    "opponent_name": "Green Party"
+  },
+  {
+    "party": "l",
+    "opponent": "sd",
+    "probability": 0,
+    "short_label": "L",
+    "display_name": "Liberals",
+    "opponent_label": "SD",
+    "opponent_name": "Sweden Democrats"
+  },
+  {
+    "party": "c",
+    "opponent": "m",
+    "probability": 0.1,
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "opponent_label": "M",
+    "opponent_name": "Moderates"
+  },
+  {
+    "party": "c",
+    "opponent": "l",
+    "probability": 96.1,
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "opponent_label": "L",
+    "opponent_name": "Liberals"
+  },
+  {
+    "party": "c",
+    "opponent": "kd",
+    "probability": 68.6,
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "opponent_label": "KD",
+    "opponent_name": "Christian Democrats"
+  },
+  {
+    "party": "c",
+    "opponent": "s",
+    "probability": 0,
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "opponent_label": "S",
+    "opponent_name": "Social Democrats"
+  },
+  {
+    "party": "c",
+    "opponent": "v",
+    "probability": 12.1,
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "opponent_label": "V",
+    "opponent_name": "Left Party"
+  },
+  {
+    "party": "c",
+    "opponent": "mp",
+    "probability": 33.6,
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "opponent_label": "MP",
+    "opponent_name": "Green Party"
+  },
+  {
+    "party": "c",
+    "opponent": "sd",
+    "probability": 0.1,
+    "short_label": "C",
+    "display_name": "Centre Party",
+    "opponent_label": "SD",
+    "opponent_name": "Sweden Democrats"
+  },
+  {
+    "party": "kd",
+    "opponent": "m",
+    "probability": 0.1,
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "opponent_label": "M",
+    "opponent_name": "Moderates"
+  },
+  {
+    "party": "kd",
+    "opponent": "l",
+    "probability": 92.5,
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "opponent_label": "L",
+    "opponent_name": "Liberals"
+  },
+  {
+    "party": "kd",
+    "opponent": "c",
+    "probability": 31.4,
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "opponent_label": "C",
+    "opponent_name": "Centre Party"
+  },
+  {
+    "party": "kd",
+    "opponent": "s",
+    "probability": 0,
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "opponent_label": "S",
+    "opponent_name": "Social Democrats"
+  },
+  {
+    "party": "kd",
+    "opponent": "v",
+    "probability": 5.7,
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "opponent_label": "V",
+    "opponent_name": "Left Party"
+  },
+  {
+    "party": "kd",
+    "opponent": "mp",
+    "probability": 19,
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "opponent_label": "MP",
+    "opponent_name": "Green Party"
+  },
+  {
+    "party": "kd",
+    "opponent": "sd",
+    "probability": 0.1,
+    "short_label": "KD",
+    "display_name": "Christian Democrats",
+    "opponent_label": "SD",
+    "opponent_name": "Sweden Democrats"
+  },
+  {
+    "party": "s",
+    "opponent": "m",
+    "probability": 98.7,
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "opponent_label": "M",
+    "opponent_name": "Moderates"
+  },
+  {
+    "party": "s",
+    "opponent": "l",
+    "probability": 100,
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "opponent_label": "L",
+    "opponent_name": "Liberals"
+  },
+  {
+    "party": "s",
+    "opponent": "c",
+    "probability": 100,
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "opponent_label": "C",
+    "opponent_name": "Centre Party"
+  },
+  {
+    "party": "s",
+    "opponent": "kd",
+    "probability": 100,
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "opponent_label": "KD",
+    "opponent_name": "Christian Democrats"
+  },
+  {
+    "party": "s",
+    "opponent": "v",
+    "probability": 100,
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "opponent_label": "V",
+    "opponent_name": "Left Party"
+  },
+  {
+    "party": "s",
+    "opponent": "mp",
+    "probability": 100,
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "opponent_label": "MP",
+    "opponent_name": "Green Party"
+  },
+  {
+    "party": "s",
+    "opponent": "sd",
+    "probability": 98.3,
+    "short_label": "S",
+    "display_name": "Social Democrats",
+    "opponent_label": "SD",
+    "opponent_name": "Sweden Democrats"
+  },
+  {
+    "party": "v",
+    "opponent": "m",
+    "probability": 0.8,
+    "short_label": "V",
+    "display_name": "Left Party",
+    "opponent_label": "M",
+    "opponent_name": "Moderates"
+  },
+  {
+    "party": "v",
+    "opponent": "l",
+    "probability": 99.6,
+    "short_label": "V",
+    "display_name": "Left Party",
+    "opponent_label": "L",
+    "opponent_name": "Liberals"
+  },
+  {
+    "party": "v",
+    "opponent": "c",
+    "probability": 87.9,
+    "short_label": "V",
+    "display_name": "Left Party",
+    "opponent_label": "C",
+    "opponent_name": "Centre Party"
+  },
+  {
+    "party": "v",
+    "opponent": "kd",
+    "probability": 94.3,
+    "short_label": "V",
+    "display_name": "Left Party",
+    "opponent_label": "KD",
+    "opponent_name": "Christian Democrats"
+  },
+  {
+    "party": "v",
+    "opponent": "s",
+    "probability": 0,
+    "short_label": "V",
+    "display_name": "Left Party",
+    "opponent_label": "S",
+    "opponent_name": "Social Democrats"
+  },
+  {
+    "party": "v",
+    "opponent": "mp",
+    "probability": 77.9,
+    "short_label": "V",
+    "display_name": "Left Party",
+    "opponent_label": "MP",
+    "opponent_name": "Green Party"
+  },
+  {
+    "party": "v",
+    "opponent": "sd",
+    "probability": 0.7,
+    "short_label": "V",
+    "display_name": "Left Party",
+    "opponent_label": "SD",
+    "opponent_name": "Sweden Democrats"
+  },
+  {
+    "party": "mp",
+    "opponent": "m",
+    "probability": 0.3,
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "opponent_label": "M",
+    "opponent_name": "Moderates"
+  },
+  {
+    "party": "mp",
+    "opponent": "l",
+    "probability": 98,
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "opponent_label": "L",
+    "opponent_name": "Liberals"
+  },
+  {
+    "party": "mp",
+    "opponent": "c",
+    "probability": 66.4,
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "opponent_label": "C",
+    "opponent_name": "Centre Party"
+  },
+  {
+    "party": "mp",
+    "opponent": "kd",
+    "probability": 81,
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "opponent_label": "KD",
+    "opponent_name": "Christian Democrats"
+  },
+  {
+    "party": "mp",
+    "opponent": "s",
+    "probability": 0,
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "opponent_label": "S",
+    "opponent_name": "Social Democrats"
+  },
+  {
+    "party": "mp",
+    "opponent": "v",
+    "probability": 22.1,
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "opponent_label": "V",
+    "opponent_name": "Left Party"
+  },
+  {
+    "party": "mp",
+    "opponent": "sd",
+    "probability": 0.4,
+    "short_label": "MP",
+    "display_name": "Green Party",
+    "opponent_label": "SD",
+    "opponent_name": "Sweden Democrats"
+  },
+  {
+    "party": "sd",
+    "opponent": "m",
+    "probability": 59.6,
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "opponent_label": "M",
+    "opponent_name": "Moderates"
+  },
+  {
+    "party": "sd",
+    "opponent": "l",
+    "probability": 100,
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "opponent_label": "L",
+    "opponent_name": "Liberals"
+  },
+  {
+    "party": "sd",
+    "opponent": "c",
+    "probability": 99.9,
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "opponent_label": "C",
+    "opponent_name": "Centre Party"
+  },
+  {
+    "party": "sd",
+    "opponent": "kd",
+    "probability": 99.9,
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "opponent_label": "KD",
+    "opponent_name": "Christian Democrats"
+  },
+  {
+    "party": "sd",
+    "opponent": "s",
+    "probability": 1.7,
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "opponent_label": "S",
+    "opponent_name": "Social Democrats"
+  },
+  {
+    "party": "sd",
+    "opponent": "v",
+    "probability": 99.3,
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "opponent_label": "V",
+    "opponent_name": "Left Party"
+  },
+  {
+    "party": "sd",
+    "opponent": "mp",
+    "probability": 99.6,
+    "short_label": "SD",
+    "display_name": "Sweden Democrats",
+    "opponent_label": "MP",
+    "opponent_name": "Green Party"
+  }
+]
