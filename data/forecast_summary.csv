@@ -1,0 +1,10 @@
+party,mean,low_83,high_83,low_95,high_95,source_col,short_label,display_name,color,bloc,rank
+s,34.03,28.16,40.55,24.71,45.26,S,S,Social Democrats,#e11931,opposition,1
+sd,18.35,14.12,22.54,11.98,25.82,SD,SD,Sweden Democrats,#ffd500,tido,2
+m,17.42,13.75,21.11,11.88,24.26,M,M,Moderates,#1b49a0,tido,3
+v,8.04,6.02,10.15,5.14,11.86,V,V,Left Party,#da291c,opposition,4
+mp,6.53,4.63,8.77,3.85,10.41,MP,MP,Green Party,#83cf39,opposition,5
+c,5.76,4,7.64,3.33,9.16,C,C,Centre Party,#009933,opposition,6
+kd,4.98,3.52,6.67,2.93,8.05,KD,KD,Christian Democrats,#005baa,tido,7
+l,2.93,1.83,4.22,1.47,5.24,L,L,Liberals,#006ab3,tido,8
+oth,1.94,1.71,2.17,1.56,2.32,oth,Other,Other parties,#8a8f98,other,9
