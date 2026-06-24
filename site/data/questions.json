@@ -1,0 +1,114 @@
+[
+  {
+    "key": "opposition_threshold_majority",
+    "label_en": "Would C+S+V+MP have a majority among parties above 4%?",
+    "label_sv": "Får C+S+V+MP majoritet bland partier över 4%?",
+    "probability": 92.4,
+    "category": "bloc",
+    "qualifier": "likely"
+  },
+  {
+    "key": "tido_threshold_majority",
+    "label_en": "Would M+L+KD+SD have a majority among parties above 4%?",
+    "label_sv": "Får M+L+KD+SD majoritet bland partier över 4%?",
+    "probability": 7.6,
+    "category": "bloc",
+    "qualifier": "unlikely"
+  },
+  {
+    "key": "svmp_threshold_majority",
+    "label_en": "Would S+V+MP have a majority among parties above 4%?",
+    "label_sv": "Får S+V+MP majoritet bland partier över 4%?",
+    "probability": 54,
+    "category": "bloc",
+    "qualifier": "tossup"
+  },
+  {
+    "key": "scmp_threshold_majority",
+    "label_en": "Would S+C+MP have a majority among parties above 4%?",
+    "label_sv": "Får S+C+MP majoritet bland partier över 4%?",
+    "probability": 26.7,
+    "category": "bloc",
+    "qualifier": "leans_unlikely"
+  },
+  {
+    "key": "sd_greater_than_gov",
+    "label_en": "SD receive more votes than M+L+KD combined?",
+    "label_sv": "Får SD fler röster än M+L+KD tillsammans?",
+    "probability": 9.7,
+    "category": "party",
+    "qualifier": "unlikely"
+  },
+  {
+    "key": "all_parties_over_4",
+    "label_en": "All eight parliamentary parties clear 4%?",
+    "label_sv": "Klarar alla åtta riksdagspartier fyraprocentsspärren?",
+    "probability": 7.9,
+    "category": "threshold",
+    "qualifier": "unlikely"
+  },
+  {
+    "key": "l_over_4",
+    "label_en": "L clear 4%?",
+    "label_sv": "Klarar L fyraprocentsspärren?",
+    "probability": 10,
+    "category": "threshold",
+    "qualifier": "unlikely"
+  },
+  {
+    "key": "kd_over_4",
+    "label_en": "KD clear 4%?",
+    "label_sv": "Klarar KD fyraprocentsspärren?",
+    "probability": 87.2,
+    "category": "threshold",
+    "qualifier": "likely"
+  },
+  {
+    "key": "c_over_4",
+    "label_en": "C clear 4%?",
+    "label_sv": "Klarar C fyraprocentsspärren?",
+    "probability": 92.4,
+    "category": "threshold",
+    "qualifier": "likely"
+  },
+  {
+    "key": "mp_over_4",
+    "label_en": "MP clear 4%?",
+    "label_sv": "Klarar MP fyraprocentsspärren?",
+    "probability": 97.7,
+    "category": "threshold",
+    "qualifier": "very_likely"
+  },
+  {
+    "key": "s_largest",
+    "label_en": "S are the largest party?",
+    "label_sv": "Blir S största parti?",
+    "probability": 96.6,
+    "category": "largest",
+    "qualifier": "very_likely"
+  },
+  {
+    "key": "sd_largest",
+    "label_en": "SD are the largest party?",
+    "label_sv": "Blir SD största parti?",
+    "probability": 2.4,
+    "category": "largest",
+    "qualifier": "very_unlikely"
+  },
+  {
+    "key": "m_greater_than_sd",
+    "label_en": "M receive more votes than SD?",
+    "label_sv": "Får M fler röster än SD?",
+    "probability": 30,
+    "category": "party",
+    "qualifier": "leans_unlikely"
+  },
+  {
+    "key": "v_greater_than_c",
+    "label_en": "V receive more votes than C?",
+    "label_sv": "Får V fler röster än C?",
+    "probability": 90.9,
+    "category": "party",
+    "qualifier": "likely"
+  }
+]
