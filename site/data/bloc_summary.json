@@ -1,0 +1,35 @@
+[
+  {
+    "key": "tido_vote",
+    "label": "M+L+KD+SD vote share",
+    "category": "bloc",
+    "mean": 44.22,
+    "median": 44.15,
+    "low_83": 38.83,
+    "high_83": 49.59,
+    "low_95": 35.84,
+    "high_95": 52.32
+  },
+  {
+    "key": "opposition_vote",
+    "label": "C+S+V+MP vote share",
+    "category": "bloc",
+    "mean": 53.85,
+    "median": 53.92,
+    "low_83": 48.47,
+    "high_83": 59.28,
+    "low_95": 45.57,
+    "high_95": 62.26
+  },
+  {
+    "key": "government_vote",
+    "label": "M+L+KD vote share",
+    "category": "bloc",
+    "mean": 25.14,
+    "median": 25.01,
+    "low_83": 20.98,
+    "high_83": 29.49,
+    "low_95": 18.92,
+    "high_95": 32.65
+  }
+]
