@@ -1,0 +1,15 @@
+key,label_en,label_sv,probability,category,qualifier
+opposition_threshold_majority,Would C+S+V+MP have a majority among parties above 4%?,Får C+S+V+MP majoritet bland partier över 4%?,92.4,bloc,likely
+tido_threshold_majority,Would M+L+KD+SD have a majority among parties above 4%?,Får M+L+KD+SD majoritet bland partier över 4%?,7.6,bloc,unlikely
+svmp_threshold_majority,Would S+V+MP have a majority among parties above 4%?,Får S+V+MP majoritet bland partier över 4%?,54,bloc,tossup
+scmp_threshold_majority,Would S+C+MP have a majority among parties above 4%?,Får S+C+MP majoritet bland partier över 4%?,26.7,bloc,leans_unlikely
+sd_greater_than_gov,SD receive more votes than M+L+KD combined?,Får SD fler röster än M+L+KD tillsammans?,9.7,party,unlikely
+all_parties_over_4,All eight parliamentary parties clear 4%?,Klarar alla åtta riksdagspartier fyraprocentsspärren?,7.9,threshold,unlikely
+l_over_4,L clear 4%?,Klarar L fyraprocentsspärren?,10,threshold,unlikely
+kd_over_4,KD clear 4%?,Klarar KD fyraprocentsspärren?,87.2,threshold,likely
+c_over_4,C clear 4%?,Klarar C fyraprocentsspärren?,92.4,threshold,likely
+mp_over_4,MP clear 4%?,Klarar MP fyraprocentsspärren?,97.7,threshold,very_likely
+s_largest,S are the largest party?,Blir S största parti?,96.6,largest,very_likely
+sd_largest,SD are the largest party?,Blir SD största parti?,2.4,largest,very_unlikely
+m_greater_than_sd,M receive more votes than SD?,Får M fler röster än SD?,30,party,leans_unlikely
+v_greater_than_c,V receive more votes than C?,Får V fler röster än C?,90.9,party,likely
