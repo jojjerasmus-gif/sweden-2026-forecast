@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Riksdag 2026 Forecast Lab</title>
+    <meta name="description" content="A bilingual static dashboard for the Swedish 2026 Riksdag election forecast.">
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="stylesheet" href="./assets/styles.css?v=20260620a">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#overview" aria-label="Riksdag 2026 Forecast Lab">
+        <span class="brand-mark"></span>
+        <span>
+          <strong>Riksdag 2026</strong>
+          <small>Forecast Lab</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#forecast" data-i18n="navForecast">Forecast</a>
+        <a href="#analysis" data-i18n="navAnalysis">Analysis</a>
+        <a href="#trends" data-i18n="navTrends">Trends</a>
+        <a href="#party" data-i18n="navParty">Party view</a>
+        <a href="#questions" data-i18n="navQuestions">Questions</a>
+        <a href="#polls" data-i18n="navPolls">Polls</a>
+        <a href="#method" data-i18n="navMethod">Method</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+      </nav>
+      <div class="language-toggle" aria-label="Language">
+        <button type="button" class="active" data-lang-button="en">EN</button>
+        <button type="button" data-lang-button="sv">SV</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="overview" class="section hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="eyebrow">Updated Swedish election forecast</p>
+            <h1 data-i18n="heroTitle">Where the Swedish parties stand now.</h1>
+            <p class="lead" data-i18n="heroLead">
+              A clear view of the latest polling, the model estimate, and the chances of key outcomes in the 2026 Riksdag election.
+            </p>
+            <div class="meta-strip" id="metaStrip"></div>
+          </div>
+          <div class="hero-panel" aria-live="polite">
+            <div>
+              <p class="metric-label" data-i18n="mainSignal">What the model says now</p>
+              <h2 id="headlineSignal">Loading</h2>
+              <p id="headlineText" class="muted"></p>
+            </div>
+            <div id="headlineMetrics" class="metric-grid compact"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="analysis" class="section analysis-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="analysisEyebrow">Analysis</p>
+          <h2 data-i18n="analysisTitle">June 20 update</h2>
+        </div>
+        <div class="analysis-panel">
+          <p data-i18n="analysisText">
+            The June 20 update incorporates polling published through June 17, 88 days before the election. Since the SCB release, new Sifo, Ipsos, and Novus polls continue to show C+S+V+MP ahead, but with a slightly narrower margin. The latest Novus poll has C+S+V+MP at 54.0%, compared to 44.4% for M+L+KD+SD. The Liberal Party (L) remains below the threshold at 2.2%, while the Christian Democrats (KD) are above it at 5.6%. These results keep the model leaning clearly toward the opposition, but pull it back slightly from the June 4 update: C+S+V+MP's election-day forecast falls to 53.9%, the Tidö bloc rises to 44.2%, and the probability of a C+S+V+MP majority among parties above 4% decreases from 93.2% to 92.4%.
+          </p>
+          <p data-i18n="analysisTextSecond">
+            Notably, S+V+MP alone now achieves a majority in 54.0% of simulations, down from 60.2%. This is mainly because the model estimate for S falls by about 1.1 percentage points, while V and MP rise somewhat. The threshold calculations still matter: L remains projected to stay below 4% in most simulations, while KD is now more often above the threshold. In this analysis, votes for parties below the threshold are excluded prior to the majority assessment.
+          </p>
+        </div>
+      </section>
+
+      <section class="section two-column">
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="blocEyebrow">Bloc balance</p>
+            <h2 data-i18n="blocTitle">How the two parliamentary sides compare</h2>
+          </div>
+          <div id="blocChart" class="chart-shell"></div>
+        </div>
+        <div>
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="probEyebrow">Model probabilities</p>
+            <h2 data-i18n="probTitle">The headline questions</h2>
+          </div>
+          <div id="topQuestions" class="question-list"></div>
+        </div>
+      </section>
+
+      <section id="forecast" class="section">
+        <div class="section-heading wide-heading">
+          <div>
+            <p class="eyebrow" data-i18n="forecastEyebrow">Vote-share forecast</p>
+            <h2 data-i18n="forecastTitle">Party estimates with uncertainty</h2>
+          </div>
+          <p data-i18n="forecastNote" class="muted">
+            This is the model's election-day vote-share forecast, not a polling average. The chart also shows a simple average of the six latest polls, which measures recent opinion rather than the model's estimate for election day.
+          </p>
+        </div>
+        <div id="forecastChart" class="chart-shell tall"></div>
+        <div class="table-wrap">
+          <table id="forecastTable"></table>
+        </div>
+      </section>
+
+      <section id="trends" class="section">
+        <div class="section-heading wide-heading">
+          <div>
+            <p class="eyebrow" data-i18n="trendEyebrow">Trajectory</p>
+            <h2 data-i18n="trendTitle">Model trend through the latest poll</h2>
+          </div>
+          <div class="segmented" aria-label="Trend mode">
+            <button type="button" class="active" data-trend-mode="bloc" data-i18n="modeBloc">Blocs</button>
+            <button type="button" data-trend-mode="party" data-i18n="modeParty">Parties</button>
+          </div>
+        </div>
+        <p class="muted section-note" data-i18n="trendNote">
+          This chart shows the model's estimated support path up to the latest poll included in the model. It is not a rolling polling average; the line smooths poll evidence through the model.
+        </p>
+        <div id="partyFilter" class="swatch-row" aria-label="Party filters"></div>
+        <div id="trendChart" class="chart-shell trend"></div>
+      </section>
+
+      <section id="party" class="section">
+        <div class="section-heading wide-heading">
+          <div>
+            <p class="eyebrow" data-i18n="partyEyebrow">Disaggregation</p>
+            <h2 data-i18n="partyTitle">Party view</h2>
+          </div>
+          <label class="select-label">
+            <span data-i18n="partySelect">Party</span>
+            <select id="partySelect"></select>
+          </label>
+        </div>
+        <p class="muted section-note" data-i18n="partyNote">
+          The graph shows the model's estimate of party support up to the latest poll included in the model. The bands show uncertainty for each date. The box on the left is different: it forecasts election day, so its range is wider because support can still move before the election.
+        </p>
+        <div class="party-layout">
+          <div id="partySummary" class="party-summary"></div>
+          <div id="partyTrend" class="chart-shell party-chart"></div>
+        </div>
+        <div class="party-layout lower">
+          <div>
+            <h3 data-i18n="partyComparisons">Head-to-head probabilities</h3>
+            <div id="pairwiseList" class="question-list slim"></div>
+          </div>
+          <div>
+            <h3 data-i18n="partyPolls">Latest polls for this party</h3>
+            <div class="table-wrap">
+              <table id="partyPollTable"></table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="questions" class="section">
+        <div class="section-heading wide-heading">
+          <div>
+            <p class="eyebrow" data-i18n="questionsEyebrow">Simulated outcomes</p>
+            <h2 data-i18n="questionsTitle">Questions the current model can answer</h2>
+          </div>
+          <p class="muted" data-i18n="questionsNote">
+            For coalition questions, each simulation first removes parties below the national 4% threshold, then checks whether the listed parties have more than half of the remaining modeled party vote.
+          </p>
+        </div>
+        <div id="allQuestions" class="question-grid"></div>
+      </section>
+
+      <section id="polls" class="section">
+        <div class="section-heading wide-heading">
+          <div>
+            <p class="eyebrow" data-i18n="pollsEyebrow">Polling input</p>
+            <h2 data-i18n="pollsTitle">Latest published polls</h2>
+            <p class="muted" data-i18n="pollsNote">
+              This table can refresh when SwedishPolls publishes new data. The labels at the top show whether those polls are already included in the current model estimate.
+            </p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="showPollChanges">
+            <span data-i18n="showChanges">Show change from same institute</span>
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table id="pollTable"></table>
+        </div>
+      </section>
+
+      <section id="method" class="section method-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="methodEyebrow">Methodology</p>
+          <h2 data-i18n="methodTitle">How to read this forecast</h2>
+        </div>
+        <div class="method-grid">
+          <article class="method-wide">
+            <h3 data-i18n="methodBayesTitle">How the updating works</h3>
+            <p data-i18n="methodBayesText">
+              The model starts with a reasonable prior view of party support, then updates that view when polls arrive.
+            </p>
+            <div id="bayesDiagram" class="bayes-diagram" aria-live="polite"></div>
+          </article>
+          <article>
+            <h3 data-i18n="methodModelTitle">Model</h3>
+            <p data-i18n="methodModelText">
+              The model is based on Stoetzer et al. (2019). Early in the campaign, it leans more on earlier elections; closer to Election Day, new polls can move the forecast more.
+            </p>
+          </article>
+          <article>
+            <h3 data-i18n="methodDataTitle">Data</h3>
+            <p data-i18n="methodDataText">
+              Polling inputs come from SwedishPolls. Official election results used for historical comparison come from Statistics Sweden.
+            </p>
+          </article>
+          <article>
+            <h3 data-i18n="methodScopeTitle">Scope</h3>
+            <p data-i18n="methodScopeText">
+              The dashboard estimates national vote shares. For coalition questions, it applies a simple 4% threshold rule before checking who would have a majority among the modeled parties.
+            </p>
+          </article>
+        </div>
+        <div class="source-block">
+          <h3 data-i18n="sourcesTitle">Sources and downloads</h3>
+          <div id="sourcesList"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="about-card">
+          <img class="about-avatar" src="./assets/jonathan-rasmusson.jpg" alt="Jonathan Rasmusson">
+          <div class="about-copy">
+            <p class="eyebrow" data-i18n="aboutEyebrow">About this project</p>
+            <h2 data-i18n="aboutTitle">Built by Jonathan Rasmusson</h2>
+            <p class="lead" data-i18n="aboutText">
+              I am an Economics student at the Stockholm School of Economics and an incoming student at the Hertie School.
+            </p>
+            <a class="profile-link" href="https://www.linkedin.com/in/jonathan-rasmusson-b66366183/" target="_blank" rel="noreferrer" data-i18n="aboutLink">View LinkedIn profile</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footerText">Independent project. Not affiliated with Valmyndigheten, Statistics Sweden, or SwedishPolls.</p>
+    </footer>
+
+    <script src="./assets/app.js?v=20260620a"></script>
+  </body>
+</html>
