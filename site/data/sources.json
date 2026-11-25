@@ -1,0 +1,34 @@
+[
+  {
+    "source": "SwedishPolls",
+    "url": "https://github.com/MansMeg/SwedishPolls",
+    "role_en": "Polling database used for current and historical Swedish opinion polls.",
+    "role_sv": "Databas för aktuella och historiska svenska opinionsmätningar.",
+    "credit_en": "Polling data from SwedishPolls by Måns Magnusson and Jens Finnäs.",
+    "credit_sv": "Opinionsdata från SwedishPolls av Måns Magnusson och Jens Finnäs."
+  },
+  {
+    "source": "Statistics Sweden",
+    "url": "https://www.scb.se/en/services/open-data-api/",
+    "role_en": "Reference source for official Swedish election results.",
+    "role_sv": "Referenskälla för officiella svenska valresultat.",
+    "credit_en": "Election-result reference from Statistics Sweden.",
+    "credit_sv": "Valresultat med SCB som referenskälla."
+  },
+  {
+    "source": "Stoetzer et al. (2019)",
+    "url": "https://doi.org/10.1017/pan.2018.49",
+    "role_en": "Published model framework used as the basis for this adaptation.",
+    "role_sv": "Publicerad modellram som ligger till grund för den här anpassningen.",
+    "credit_en": "Method adapted from Stoetzer, Neunhoeffer, Gschwend, Munzert and Sternberg, Political Analysis.",
+    "credit_sv": "Metoden bygger på Stoetzer, Neunhoeffer, Gschwend, Munzert och Sternberg, Political Analysis."
+  },
+  {
+    "source": "Replication materials",
+    "url": "https://doi.org/10.7910/DVN/MLYNX0",
+    "role_en": "Original replication package used to reproduce and adapt the model workflow.",
+    "role_sv": "Ursprungligt replikeringspaket som används för att reproducera och anpassa modellflödet.",
+    "credit_en": "Replication package by Neunhoeffer et al., Harvard Dataverse.",
+    "credit_sv": "Replikeringspaket av Neunhoeffer med flera, Harvard Dataverse."
+  }
+]
